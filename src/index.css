@@ -1,0 +1,315 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  width: 100%;
+  height: 3000px;
+  margin: auto;
+}
+header{
+  background-color: #004F44;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;;
+}
+.nav-links{
+  color: #ffffff;
+  margin-left: 30px;
+  display: flex;
+  gap: 15px;
+}
+.nav-btn{
+  margin-right: 30px;
+  display: flex;
+  gap: 15px;
+}
+.nav-logo{
+  margin-right: 90px
+}
+.main-block{
+  width: 100%;
+  height: 500px;
+  background-color: #004F44;
+  display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.l-block{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-l-block > h1{
+  margin: 20px 0px;
+  
+}
+.child-l-block > p{
+  margin: 20px 0px;
+  
+}
+.child-l-block{
+  width: 300px;
+  height: 300px;
+  color: #EFF7F5;
+}
+.r-block{
+  width: 500px;
+  height: 500px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-l-block{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-main{
+  padding: 10px 20px;
+  font-weight: 600;
+  color: #004F44;
+}
+.group{
+  width: 400px;
+  position: relative;
+  left: 100px;
+}
+.group-btn{
+  z-index: 1;
+  position: relative;
+  right: 134px;
+  top: 150px;
+  padding: 10px 92px;
+  border-radius: 0;
+  border: solid 0px;
+  color: #004F44;
+  font-weight: 600;
+  transition: all 0.5s ;
+}
+.group-btn:hover{
+  background-color: #004F44;
+  color: #EFF7F5;
+  transition: all 0.5s ;
+}
+.cards-title{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    font-weight: 600;
+    color: #004F44;
+    margin-top: 20px;
+}
+.featured{
+  font-size: 22px;
+}
+.cards{
+  width: 100%;
+  height: 520px;
+  display: flex;
+  gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.card{
+  width: 280px;
+  height: 500px;
+}
+.card-desc{
+  display: flex;
+  justify-content: space-between;
+  color: #004F44;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+.card-bottom{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #004F44;
+
+  padding: 10px 0px;
+}
+.pot-color{
+  color: grey;
+
+}
+.pot-color > p{
+  margin-bottom: 5px;
+}
+.card-btn{
+  padding: 10px 25px;
+  border: solid 0px;
+  background-color: #004F44;
+  color: #EFF7F5;
+}
+.search-block{
+  width: 100%;
+  height: 200px;
+  background-color: #F3FFFC;
+  margin-top: 20px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.settings{
+  background-color: #F3FFFC;
+  border: solid 2px green;
+  width: 60px;
+  height: 60px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inp{
+  border: solid 2px green;
+  height: 60px;
+  background-color: #F3FFFC;
+  width: 900px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #004F44;
+  font-weight: 600;
+}
+.search{
+  background-color: #F3FFFC;
+  border: solid 2px green;
+  width: 65px;
+  height: 65px;
+  background-color: #004F44;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrival-title{
+  width: 100%;
+  
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #004F44;
+
+}
+.arrival-p{
+  margin-left: 50px;
+  margin-top: 50PX;
+  font-size: 20px;
+}
+.arrival-p1{
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.cards-img{
+  display: flex;
+  gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.group-img{
+  width: 67%;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.plants{
+  width: 100%;
+  height: 700px;
+  background-color: #F3FFFC;
+  display: flex;
+    justify-content: center;
+    
+}
+.group-plants{
+  width: 67%;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.plants-img{
+  display: flex;
+  gap: 20px;
+}
+.plants-title{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 24px;
+  color: #004F44;
+  font-weight: 600;
+  position: relative;
+  right: 505px;
+}
+.visit{
+  margin-top: 80px;
+  
+}
+.visit-img{
+  background: url('./images/image\ 13.png') no-repeat;
+  width: 1150px;
+  height: 350px;
+  margin: auto;
+  color: #9C6955;
+  display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.img-info{
+  display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    margin-left: 40px;
+}
+.loc-main{
+  width: 100%;
+  height: 400px;
+  margin-top: 80px;
+}
+.loc{
+  background: url('./images/Rectangle\ 8.jpg') no-repeat;
+  width: 1150px;
+  height: 350px;
+  margin: auto;
+  z-index: -1;
+  
+  
+}
+.loc-child{
+  background-color: #ffffff;  width: 515px;
+  height: 230px;
+  z-index: 1;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+.loc-info > p, h2{
+  margin-left: 30px;
+  
+}
+.loc-info{
+  padding-top: 30px;
+}
+.loc-btn{
+  height: 50px;
+  width: 150px;
+  background-color: #004F44;
+  color: #EFF7F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 365px;
+  bottom: 166px;
+
+}
